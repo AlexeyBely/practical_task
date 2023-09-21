@@ -1,13 +1,7 @@
-import logging
-import math
-
 from geometric import CalcShapes
 from products.create_products import (spark_session, create_categories, create_products, 
                                       create_product_category)
 from products.read_products import select_products
-
-
-logger = logging.getLogger(__name__)
         
 
 def main():
